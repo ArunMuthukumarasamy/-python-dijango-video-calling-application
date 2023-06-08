@@ -1,6 +1,6 @@
 # -python-django-video-calling-application
  DISCRPTION 
- ABSTRACT 
+ 
 Video calling has become increasingly popular as a way to stay connected with friends, 
 family, and colleagues, and video calling applications have been developed to make it easier than ever
 to make video calls. This project aims to develop a video calling application using the Django 
