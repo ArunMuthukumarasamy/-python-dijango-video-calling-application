@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+.signup-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0; 
+    background-color: rgba(232, 233, 239 , 1);
+    font-family: 'Roboto', sans-serif;;
+  }
+
+.container {
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #f3f3f3;
+  }
+  
+  .h1-signup {
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 10px;
+    margin-bottom: 16px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    display: block;
+    width: 420px;
+    padding: 12px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    background-color: #f3f3f3;
+  }
+  
+  button {
+    display: block;
+    width: 420px;
+    padding: 8px 12px;
+    border: 1px solid #333;
+    /* border-radius: 4px; */
+    border-radius: 18px;
+    box-shadow: 2px 2px 2px rgba(20,120,255);
+    background-color: rgb(75,95,172);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  /* chatroom css */
+  #chatroom-body{
+    margin:20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  #chatroom-h1{
+    padding:40px 20px;
+  }
+  #join-btn{
+    text-align: center;
+    padding:5px;
+    width:100px;
+    color:white;
+    background-color:rgb(75,95,172);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(20,120,255);
+    cursor: pointer;
+    
+  }
+  #join-btn:hover
+  {
+  color:rgb(75,95,172);
+  text-decoration: none;
+  background-color: rgb(113, 137, 233);
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
