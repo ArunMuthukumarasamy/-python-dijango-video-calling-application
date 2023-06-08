@@ -12,6 +12,7 @@ Additionally, third-party Agora APIs will be integrated for authentication and o
 application will be tested for performance and usability, and will be optimized for mobile devices. 
 
   EXISTING METHOD :
+  
   The existing system for video calling application using Django is to create a web application 
 using the Django framework and the Django REST Framework. The web application should use web 
 sockets to allow users to make video calls to each other. This involves configuring server and setting 
