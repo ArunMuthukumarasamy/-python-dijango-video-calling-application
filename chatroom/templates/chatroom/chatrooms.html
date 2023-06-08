@@ -1,0 +1,30 @@
+{% extends 'base/main.html' %}
+{% load static %}
+{% block title %} Chat Rooms {% endblock %}
+
+{% block extrahead %}
+<link rel="stylesheet" href="{% static 'styles/signupcss.css' %}" type="text/css" media="screen">
+
+{% endblock %}
+
+{% block content %}
+
+
+<div id="chatroom-body">
+    <div class="row"></div>
+    <h1 id="chatroom-h1">CHATROOMS</h1>
+    {% for chatroom in chatrooms %}   
+        <div class="column">
+          <div class="card h-100">
+            <h5 class="card-title">{{ chatroom.name }}</h5>
+            <div class="card-title">
+                <a href="{% url 'chatroom' chatroom.slug %}" class="btn" id="join-btn">Join</a>
+            </div>
+            
+          </div>
+        </div>
+    {% endfor %}     
+    </div>
+</div>
+
+{% endblock content %}
