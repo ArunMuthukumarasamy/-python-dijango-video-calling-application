@@ -1,1 +1,1 @@
-# -python-dijango-video-calling-application
+# -python-django-video-calling-application
